@@ -1,0 +1,43 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"webextensions": true
+	},
+	"rules": {
+		"comma-dangle": [1], //disallow or enforce trailing commas (recommended)
+		"no-cond-assign": [1], //disallow assignment in conditional expressions (recommended)
+		"no-constant-condition": [1], //disallow use of constant expressions in conditions (recommended)
+		"no-control-regex": [1], //disallow control characters in regular expressions (recommended)
+		"no-debugger": [1], //disallow use of debugger (recommended)
+		"no-delete-var": [1], //disallow deletion of variables (recommended)
+		"no-dupe-args": [1], //disallow duplicate arguments in functions (recommended)
+		"no-dupe-keys": [1], //disallow duplicate keys when creating object literals (recommended)
+		"no-duplicate-case": [1], //disallow a duplicate case label. (recommended)
+		"no-empty": [1], //disallow empty statements (recommended)
+		"no-empty-character-class": [1], //disallow the use of empty character classes in regular expressions (recommended)
+		"no-ex-assign": [1], //disallow assigning to the exception in a catch block (recommended)
+		"no-extra-boolean-cast": [1], //disallow double-negation boolean casts in a boolean context (recommended)
+		"no-extra-semi": [1], //disallow unnecessary semicolons (recommended) (fixable)
+		"no-fallthrough": [1], //disallow fallthrough of case statements (recommended)
+		"no-func-assign": [1], //disallow overwriting functions written as function declarations (recommended)
+		"no-inner-declarations": [1], //disallow function or variable declarations in nested blocks (recommended)
+		"no-invalid-regexp": [1], //disallow invalid regular expression strings in the RegExp constructor (recommended)
+		"no-irregular-whitespace": [1], //disallow irregular whitespace outside of strings and comments (recommended)
+		"no-loop-func": [1], //disallow creation of functions within loops
+		"no-mixed-spaces-and-tabs": [1], //disallow mixed spaces and tabs for indentation (recommended)
+		"no-negated-in-lhs": [1], //disallow negation of the left operand of an in expression (recommended)
+		"no-obj-calls": [1], //disallow the use of object properties of the global object (Math and JSON) as functions (recommended)
+		"no-octal": [1], //disallow use of octal literals (recommended)
+		"no-redeclare": [1], //disallow declaring the same variable more than once (recommended)
+		"no-regex-spaces": [1], //disallow multiple spaces in a regular expression literal (recommended)
+		"no-sparse-arrays": [1], //disallow sparse arrays (recommended)
+		"no-undef": [1], //disallow use of undeclared variables unless mentioned in a /*global */ block (recommended)
+		"no-undefined": [1], //disallow use of undefined variable
+		"no-unreachable": [1], //disallow unreachable statements after a return, throw, continue, or break statement (recommended)
+		"no-unused-vars": [1], //disallow declaration of variables that are not used in the code (recommended)
+		"quotes": [1, "backtick", "avoid-escape"], //specify whether backticks, double or single quotes should be used (fixable)
+		"use-isnan": [1], //disallow comparisons with the value NaN (recommended)
+		"valid-typeof": [1] //Ensure that the results of typeof are compared against a valid string (recommended)
+	}
+}

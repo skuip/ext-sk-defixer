@@ -14,7 +14,7 @@ module.exports = function (grunt)
 
 			eslint:
 			{
-				options: { configFile: 'conf/eslint.json' },
+				options: { configFile: '.eslintrc' },
 				development: [ 'src/*.js' ]
 			},
 
@@ -54,7 +54,8 @@ module.exports = function (grunt)
 				dist: {
 					cwd: 'src/',
 					src: [ 'src/*' ],
-					dest: 'extension.zip'
+					dest: 'dist/extension.zip',
+					compression: 'DEFLATE'
 				}
 			}
 		});

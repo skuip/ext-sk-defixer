@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"grunt": "*",
+		"grunt-contrib-stylus": "*",
+		"grunt-contrib-watch": "*",
+		"grunt-eslint": "*",
+		"grunt-zip": "*"
+	}
+}
