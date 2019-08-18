@@ -5,5 +5,8 @@
 		"grunt-contrib-watch": "*",
 		"grunt-eslint": "*",
 		"grunt-zip": "*"
+	},
+	"scripts": {
+		"start": "grunt watch"
 	}
 }

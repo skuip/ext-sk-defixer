@@ -41,12 +41,17 @@ module.exports = function (grunt)
 				javascript:
 				{
 					files: [ 'src/*.js' ],
-					tasks: [ 'eslint', 'zip' ]
+					tasks: [ 'eslint' ]
 				},
 				stylesheet:
 				{
 					files: [ 'src/*.styl' ],
-					tasks: [ 'stylus', 'zip' ]
+					tasks: [ 'stylus' ]
+				},
+				other:
+				{
+					files: [ 'src/*' ],
+					tasks: [ 'zip' ]
 				}
 			},
 
