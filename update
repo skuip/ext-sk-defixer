@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+zip -9 -r extension.zip \
+    manifest.json \
+    background.js \
+    content_script.js \
+    icons \
+    LICENSE-MIT \
+

@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "SK Defixer",
+    "version": "1.2.0",
+    "action": {
+        "default_icon": {
+            "128": "icons/icon.svg"
+        },
+        "default_title": "Defixer"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "service_worker": "background.js"
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": { "default": "Alt+Shift+D" }
+        }
+    },
+    "description": "Hide fixed elements, so there is more reading space or stop those annoying headers from popping in/out when scrolling up and down",
+    "icons": {
+        "128": "icons/icon.svg"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "ext.defixer-5ctnqmu0@skuip.net"
+        }
+    }
+}
